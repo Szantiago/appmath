@@ -71,6 +71,30 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                   }
                 }
               })
+            .state('app.ejemplorad', {
+                url: '/ejemplorad',
+                views: {
+                  'menuContent': {
+                    templateUrl: 'templates/ejemplorad.html'
+                  }
+                }
+              })
+              .state('app.ejemplopot', {
+                  url: '/ejemplopot',
+                  views: {
+                    'menuContent': {
+                      templateUrl: 'templates/ejemplopot.html'
+                    }
+                  }
+                })
+                .state('app.ejemplolog', {
+                    url: '/ejemplolog',
+                    views: {
+                      'menuContent': {
+                        templateUrl: 'templates/ejemplolog.html'
+                      }
+                    }
+                  })
 
 
   // if none of the above states are matched, use this as the fallback

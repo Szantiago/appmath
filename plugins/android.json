@@ -7,9 +7,6 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.ionicframework.appmath836046"
-        },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "com.ionicframework.appmath836046"
         },
@@ -23,6 +20,9 @@
             "PACKAGE_NAME": "com.ionicframework.appmath836046"
         },
         "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.appmath836046"
+        },
+        "cordova-plugin-console": {
             "PACKAGE_NAME": "com.ionicframework.appmath836046"
         }
     },
