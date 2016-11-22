@@ -95,6 +95,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                       }
                     }
                   })
+                  .state('app.jugar', {
+                      url: '/jugar',
+                      views: {
+                        'menuContent': {
+                          templateUrl: 'templates/jugar.html'
+                        }
+                      }
+                    })
+                    
+
 
 
   // if none of the above states are matched, use this as the fallback
